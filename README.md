@@ -36,6 +36,7 @@ compile 'wang.yuchao.android.library.view.dialog:FinalDialogLibrary:1.0.0'
 ```
 -keep class wang.yuchao.android.library.** { *; }
 -dontwarn wang.yuchao.android.library.**
+```
 
 
 ### [About Me](http://yuchao.wang)
