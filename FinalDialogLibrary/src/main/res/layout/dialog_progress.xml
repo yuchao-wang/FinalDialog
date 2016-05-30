@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_normal"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@android:color/transparent"/>
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/bg_rectangle_white_corner"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_normal">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="@dimen/const_height_tiny_"
+            android:layout_height="@dimen/const_height_tiny_"
+            android:indeterminateDrawable="@drawable/progress_circle_rotate"
+            android:indeterminateDuration="1500"
+            android:interpolator="@android:anim/linear_interpolator"/>
+
+        <TextView
+            android:id="@+id/tv_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:text="正在加载..."
+            android:textColor="@color/text_grey_dark"
+            android:textSize="@dimen/text_normal"/>
+    </LinearLayout>
+</LinearLayout>

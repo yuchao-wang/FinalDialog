@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:id="@+id/ll_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_big"
+        android:text="友情提醒"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_big"/>
+
+    <include layout="@layout/app_line"/>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/bg_selector_rectangle_red"
+        android:padding="@dimen/margin_normal"
+        android:text="确定"
+        android:textColor="@drawable/bg_selector_rectangle_red"
+        android:textSize="@dimen/text_normal"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:background="@drawable/bg_selector_rectangle_grey"
+        android:padding="@dimen/margin_normal"
+        android:text="取消"
+        android:textColor="@drawable/bg_selector_rectangle_grey"
+        android:textSize="@dimen/text_normal"/>
+</LinearLayout>
