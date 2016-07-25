@@ -1,4 +1,4 @@
-package wang.yuchao.android.library.view.sample.dialog;
+package wang.yuchao.android.library.view.dialog.sample;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
