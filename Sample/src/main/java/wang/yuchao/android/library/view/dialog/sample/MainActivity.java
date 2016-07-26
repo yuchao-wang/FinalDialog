@@ -14,7 +14,6 @@ import wang.yuchao.android.library.view.dialog.custom.MenuDialog;
 import wang.yuchao.android.library.view.dialog.custom.NormalDialog;
 import wang.yuchao.android.library.view.dialog.custom.ProgressDialog;
 import wang.yuchao.android.library.view.dialog.custom.ToastDialog;
-import wang.yuchao.android.library.view.sample.R;
 
 public class MainActivity extends FragmentActivity {
 
