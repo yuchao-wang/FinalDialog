@@ -69,6 +69,12 @@ public class MainActivity extends FragmentActivity {
         findViewById(R.id.button06).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                StringBuffer stringBuffer = new StringBuffer();
+                stringBuffer.append("这是NormalDialog，title,button,content可根据需求灵活组装");
+                for (int i = 0; i < 1000; i++) {
+                    stringBuffer.append("王玉超" + i);
+                }
+
                 final NormalDialog normalDialog = new NormalDialog(MainActivity.this);
                 normalDialog
                         .setCanBeCanceled(true)
@@ -79,7 +85,7 @@ public class MainActivity extends FragmentActivity {
                             }
                         })
                         .setTitleText("确定退出吗？")
-                        .setContentText("这是NormalDialog，title,button,content可根据需求灵活组装")
+                        .setContentText(stringBuffer.toString())
                         .setButtonLeft("取消", new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {

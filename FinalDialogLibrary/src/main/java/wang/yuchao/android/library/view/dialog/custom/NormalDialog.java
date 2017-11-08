@@ -2,6 +2,7 @@ package wang.yuchao.android.library.view.dialog.custom;
 
 import android.app.Activity;
 import android.text.TextUtils;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -55,6 +56,8 @@ public class NormalDialog extends BaseDialog<NormalDialog> {
         tv_left = (TextView) rootView.findViewById(R.id.tv1);
         tv_center = (TextView) rootView.findViewById(R.id.tv2);
         tv_right = (TextView) rootView.findViewById(R.id.tv3);
+
+        tv_content.setMovementMethod(ScrollingMovementMethod.getInstance());
     }
 
     public NormalDialog setTitleText(String title) {

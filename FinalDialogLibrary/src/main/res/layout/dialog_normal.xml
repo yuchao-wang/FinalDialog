@@ -22,8 +22,9 @@
         android:id="@+id/tv_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:maxHeight="240dp"
         android:padding="@dimen/margin_normal"
-        android:text="1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc"
+        android:text="1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.cccccccccccccdddd"
         android:textColor="@color/grey"
         android:textSize="@dimen/text_normal"/>
 
