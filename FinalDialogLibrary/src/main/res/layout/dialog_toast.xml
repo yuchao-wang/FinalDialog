@@ -27,7 +27,10 @@
         android:id="@+id/tv_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:maxHeight="240dp"
         android:padding="@dimen/margin_normal"
+        android:scrollbars="vertical"
         android:text="您的申请已经提交成功，需要2-3个工作日才能审核完成，请留意短信通知"
         android:textColor="@color/grey_dark"
         android:textSize="@dimen/text_normal"/>

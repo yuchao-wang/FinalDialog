@@ -2,6 +2,7 @@ package wang.yuchao.android.library.view.dialog.custom;
 
 import android.app.Activity;
 import android.text.TextUtils;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -37,6 +38,8 @@ public class ToastDialog extends BaseDialog<ToastDialog> {
 
         tv_title = (TextView) rootView.findViewById(R.id.tv_title);
         tv_content = (TextView) rootView.findViewById(R.id.tv_content);
+
+        tv_content.setMovementMethod(ScrollingMovementMethod.getInstance());
     }
 
     public ToastDialog setTitleText(String title) {
