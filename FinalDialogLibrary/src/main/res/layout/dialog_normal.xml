@@ -26,6 +26,7 @@
         android:maxHeight="240dp"
         android:padding="@dimen/margin_normal"
         android:scrollbars="vertical"
+        android:fadeScrollbars="false"
         android:textColor="@color/grey"
         android:textSize="@dimen/text_normal"
         tools:text="1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.cccccccccccccdddd"/>
