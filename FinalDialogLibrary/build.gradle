@@ -37,7 +37,7 @@ ext {
     siteUrl = 'https://github.com/yuchao-wang/FinalDialog'
     gitUrl = 'https://github.com/yuchao-wang/FinalDialog.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.3'
 
     developerId = 'wangyuchao'
     developerName = 'yuchao-wang'

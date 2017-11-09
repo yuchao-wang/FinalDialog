@@ -2,6 +2,7 @@
 <LinearLayout
     android:id="@+id/ll_container"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/margin_normal"
@@ -24,9 +25,10 @@
         android:layout_height="wrap_content"
         android:maxHeight="240dp"
         android:padding="@dimen/margin_normal"
-        android:text="1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.cccccccccccccdddd"
+        android:scrollbars="vertical"
         android:textColor="@color/grey"
-        android:textSize="@dimen/text_normal"/>
+        android:textSize="@dimen/text_normal"
+        tools:text="1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.ccccccccccccc1.aaaaaaaaaaaaaaaaaaa\n2.bbbbbbbbbbbbb\n3.cccccccccccccdddd"/>
 
     <include
         layout="@layout/app_line"/>
